@@ -1,0 +1,12 @@
+.kanban-board {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border: 2px solid grey;
+}
+
+@media (max-width: 768px) {
+    .kanban-board {
+        flex-direction: column;
+    }
+}
